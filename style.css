@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+  background-color: red;
+  width: 300px;
+  margin: 80px auto;
+  border-radius: 12px;
+  padding: 24px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.main--img {
+  height: 250px;
+  border-radius: 12px;
+  /* background-image: linear-gradient(
+      rgba(0, 255, 247, 0.7),
+      rgba(0, 255, 247, 0.7)
+    ),
+    url(images/image-equilibrium.jpg); */
+  background-image: url(/image-equilibrium.jpg);
+  background-size: cover;
+}
+
+.main--img:hover {
+  cursor: pointer;
+  height: 250px;
+  border-radius: 8px;
+  background-image: linear-gradient(
+      rgba(0, 255, 247, 0.5),
+      rgba(0, 255, 247, 0.5)
+    ),
+    url(/image-equilibrium.jpg);
+  background-size: cover;
+}
+
+h3 {
+  padding: 16px 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+h3:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+.container--eth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  font-size: 12px;
+
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+.span--1 {
+  color: hsl(178, 100%, 50%);
+  display: flex;
+  align-items: center;
+}
+
+.span--2 {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  align-items: center;
+}
+
+.author {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.author--img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.author-description {
+  font-size: 14px;
+}
+
+.author--name {
+  color: #ced4da;
+}
+
+.author--name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}

@@ -21,11 +21,6 @@ body {
 .main--img {
   height: 250px;
   border-radius: 12px;
-  /* background-image: linear-gradient(
-      rgba(0, 255, 247, 0.7),
-      rgba(0, 255, 247, 0.7)
-    ),
-    url(image-equilibrium.jpg); */
   background-image: url(image-equilibrium.jpg);
   background-size: cover;
 }

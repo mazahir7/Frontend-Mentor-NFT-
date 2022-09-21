@@ -25,8 +25,8 @@ body {
       rgba(0, 255, 247, 0.7),
       rgba(0, 255, 247, 0.7)
     ),
-    url(images/image-equilibrium.jpg); */
-  background-image: url(/image-equilibrium.jpg);
+    url(image-equilibrium.jpg); */
+  background-image: url(image-equilibrium.jpg);
   background-size: cover;
 }
 
@@ -38,7 +38,7 @@ body {
       rgba(0, 255, 247, 0.5),
       rgba(0, 255, 247, 0.5)
     ),
-    url(/image-equilibrium.jpg);
+    url(image-equilibrium.jpg);
   background-size: cover;
 }
 
